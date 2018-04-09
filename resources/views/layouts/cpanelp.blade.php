@@ -39,13 +39,13 @@
       <header class="main-header">
 
         <!-- Logo -->
-        <a href="http://taxicorp.esy.es" target="_blanck" class="logo">
+        <a href="https://www.incotec.com.bo" target="_blanck" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b style="color: #026EAE; font-family: serif; font-size: 25px;">ICT</b></span>
 
           <!-- logo for regular state and mobile devices -->
 
-        <span class="logo-lg"> <img src="{{asset('images/log.png')}}" class="img-responsive" style="max-width: 81%;"> </span>         
+        <span class="logo-lg"> <img src="{{asset('images/incotecblack.png')}}" class="img-responsive" style="max-width: 81%;"> </span>         
           <!--<span class="logo-lg"><b style="color: #026EAE; font-family: serif; font-size: 40px;"><img src="images/log.png"  width="170"  height="40"></b></span> -->
         </a>
 
@@ -63,16 +63,16 @@
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <small class="bg-green">Online</small>
-                  <span style="color: #000000"><b>{{Auth::user()->correo}}</b></span>
-                  <i class="fa fa-user-circle" aria-hidden="true" style="color: black;"></i>                              
+                 <img src="{{ asset('images/greenstatus.png') }}" class="img-responsive" style="max-width: 15px; margin-right: 5px; margin-top: 5px"  align="left"> <small style="margin-right: 10px">Online</small>
+                  <span style="color: #ffff"><b>{{Auth::user()->correo}}</b></span>
+                  <i class="fa fa-user-circle" aria-hidden="true" style="color: white;"></i>                              
                 </a> 
 
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">                    
                     <p>
-                      www.grayhatcorp.com Desarrollando Software
+                      www.grayhatcorp.com Desarrollando Software...
                     </p>
                   </li>
                   
@@ -353,7 +353,14 @@
         {!!Html::script('js/bootstrap-datetimepicker.min.js')!!}
        {!!Html::script('js/sistemalaravel.js')!!}
        <script src="/js/laravel.js"></script> 
+              {!!Html::script('js/crisp.js')!!}
 
+  
+
+
+</script>
+
+        </script>>
   </body>
 </html>
 

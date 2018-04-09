@@ -10,7 +10,9 @@
         "laravelcollective/html": "5.2.*",
         "swiftmailer/swiftmailer": "5.4.8",
         "barryvdh/laravel-debugbar": "~2.4",
-        "uxweb/sweet-alert": "^1.4"
+        "uxweb/sweet-alert": "^1.4",
+        "crispchat/php-crisp-api": "^1.3",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

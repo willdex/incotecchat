@@ -3,7 +3,7 @@
  * ----------
  */
 .skin-blue .main-header .navbar {
-  background-color: #ffffff;  /*ESTO AFECTA A LA BARRA DONDE ESTA EL BOTON SALIR*/
+  background-color: #000000;  /*ESTO AFECTA A LA BARRA DONDE ESTA EL BOTON SALIR*/
 }
 .skin-blue .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -43,7 +43,7 @@
   }
 }
 .skin-blue .main-header .logo {
-  background-color: #ffffff;  /*ESTO AFECTA AL LOGO*/
+  background-color: #000000;  /*ESTO AFECTA AL LOGO*/
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
